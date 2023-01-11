@@ -131,7 +131,7 @@ export const database={
         "price": 18.19,
         "rating": 2
       }, {
-        "title": "Hazelnut in black ceramic bowl",
+        "title": "Hazelnut in black bowl",
         "type": "vegetable",
         "description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
         "image": "https://storage.sg.content-cdn.io/cdn-cgi/image/width=200,height=200,quality=75,format=auto,fit=cover,g=top/in-resources/075ba640-9325-4e0e-8157-cdf49e2a8909/Images/ProductImages/Source/138109316-240820.jpg",
@@ -239,7 +239,7 @@ export const database={
         "price": 18.19,
         "rating": 2
       }, {
-        "title": "Hazelnut in black ceramic bowl",
+        "title": "Hazelnut in black bowl",
         "type": "vegetable",
         "description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
         "image": "https://storage.sg.content-cdn.io/cdn-cgi/image/width=200,height=200,quality=75,format=auto,fit=cover,g=top/in-resources/075ba640-9325-4e0e-8157-cdf49e2a8909/Images/ProductImages/Source/138109316-240820.jpg",
@@ -347,7 +347,7 @@ export const database={
         "price": 18.19,
         "rating": 2
       }, {
-        "title": "Hazelnut in black ceramic bowl",
+        "title": "Hazelnut in black bowl",
         "type": "vegetable",
         "description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
         "image": "https://storage.sg.content-cdn.io/cdn-cgi/image/width=200,height=200,quality=75,format=auto,fit=cover,g=top/in-resources/075ba640-9325-4e0e-8157-cdf49e2a8909/Images/ProductImages/Source/138109316-240820.jpg",
@@ -455,7 +455,7 @@ export const database={
         "price": 18.19,
         "rating": 2
       }, {
-        "title": "Hazelnut in black ceramic bowl",
+        "title": "Hazelnut in black bowl",
         "type": "vegetable",
         "description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
         "image": "https://storage.sg.content-cdn.io/cdn-cgi/image/width=200,height=200,quality=75,format=auto,fit=cover,g=top/in-resources/075ba640-9325-4e0e-8157-cdf49e2a8909/Images/ProductImages/Source/138109316-240820.jpg",

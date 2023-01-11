@@ -38,18 +38,18 @@ export default class Banner extends Component {
         }
       ],
       autoplaySpeed: 1500,
-      afterChange: function(index:number) {
-        console.log(
-          `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
-        );
+      afterChange: function (index: number) {
+        // console.log(
+        //   `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
+        // );
       }
     };
     return (
-    <div className="col-12 bg-light targeted-scrollbox">
+      <div className="col-12 bg-light targeted-scrollbox">
         <Slider {...settings}>
-        {
-            database.banner.map(x=><div className=""><img className='m-1' style={{width:'332px',height:'332px'}} src={x} alt="" /></div> )
-        }
+          {
+            database.banner.map(x => <div className="" key={x.toString()}><img className='m-1' style={{ width: '332px', height: '332px' }} src={x} alt="" /></div>)
+          }
         </Slider>
       </div>
     );

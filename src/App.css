@@ -1,52 +1,61 @@
-.catlist{
+.catlist {
   background-color: green;
   color: white;
 }
+
 .input-group {
   width: auto !important;
 }
-.navLoc p{
-font-size: 13px;
-}
-.navLoc p:nth-child(2){
-  font-size: 16px;
-  }
 
-.scrollable{
-  width:100vw;
+.navLoc p {
+  font-size: 13px;
+}
+
+.navLoc p:nth-child(2) {
+  font-size: 16px;
+}
+
+.scrollable {
+  width: 100vw;
   overflow: hidden;
 }
-.targeted-scrollbox{
+
+.targeted-scrollbox {
   position: relative;
 }
-.swipe-buttons{
-position: absolute;
-top: 32%;
+
+.swipe-buttons {
+  position: absolute;
+  top: 32%;
 }
 
-.swipe-buttons button{
+.swipe-buttons button {
   display: flex;
   justify-content: center;
-  align-items:center ;
+  align-items: center;
   min-height: 50px;
   min-width: 50px;
-} 
+}
 
-.slick-slider button{
+.slick-slider button {
   z-index: 1;
 }
 
 .slick-prev {
   left: 50px;
 }
+
 .slick-next {
   right: 100px;
 }
-.slick-next:before, .slick-prev:before {
+
+.slick-next:before,
+.slick-prev:before {
   font-size: 50px;
   color: #057e1b99;
 }
-.label-danger{
+
+.label-danger {
   font-weight: 600;
   width: 57px;
   padding: 1px 6px;
@@ -56,3 +65,4 @@ top: 32%;
   color: white;
 
 }
+
