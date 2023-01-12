@@ -10,6 +10,7 @@ export default class Banner extends Component {
       slidesToShow: 4,
       swipeToSlide: true,
       autoplay: true,
+      centerMode:true,
       speed: 500,
       responsive: [
         {

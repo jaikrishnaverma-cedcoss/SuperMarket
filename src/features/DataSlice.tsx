@@ -13,6 +13,7 @@ type StateType={
      User:{
         username:string
         password:string
+        mobile:number
      }[]
  }
 const initialState: StateType = {
@@ -37,6 +38,7 @@ const DataSlice: any = createSlice({
             state.Cart.splice(action.payload.index, 1)
         },
         addUser:(state,action)=>{
+             //payload={ user:,password:}
             state.User.push({ ...action.payload})
         }
 
@@ -44,4 +46,4 @@ const DataSlice: any = createSlice({
 
 })
 export default DataSlice.reducer;
-export const { addToCart, updateQuantity, deleteFromCart } = DataSlice.actions
+export const { addToCart, updateQuantity, deleteFromCart, addUser} = DataSlice.actions

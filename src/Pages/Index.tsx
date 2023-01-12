@@ -17,21 +17,22 @@ type StateType={
      total:number
      type:string
    }[],
-   User:{
+ User:{
       username:string
       password:string
+      mobile:number
    }[]
 }
 const Index = () => {
   const state=useSelector((state:StateType)=>state.User)
-  const [loggedIn,setLoggedIn]=useState(false)
-  if(!loggedIn)
+  const [loggedIn,setLoggedIn]=useState({loggedIn:false,userDetails:{}})
+  if(!loggedIn.loggedIn)
   return <Auth setLoggedIn={setLoggedIn}/>
 
 
   return (
     <>
-      <Nav />
+      <Nav loggedIn={loggedIn} setLoggedIn={setLoggedIn}/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />

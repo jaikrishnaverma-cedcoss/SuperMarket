@@ -14,10 +14,12 @@ type StateType={
      title:string
      total:number
      type:string
+     centerMode:true,
    }[],
-   User:{
+ User:{
       username:string
       password:string
+      mobile:number
    }[]
 }
 type CartType = {

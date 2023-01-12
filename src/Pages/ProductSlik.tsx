@@ -13,6 +13,7 @@ export default class ProductSlik extends Component {
       swipeToSlide: true,
       autoplay: true,
       speed: 500,
+      centerMode:true,
       autoplaySpeed: 1500,
       responsive: [
         {

@@ -13,9 +13,10 @@ type StateType={
      total:number
      type:string
    }[],
-   User:{
+ User:{
       username:string
       password:string
+      mobile:number
    }[]
 }
 
